@@ -1,0 +1,33 @@
+{
+    "name" : "我们的小窝",
+    "appid" : "__UNI__COUPLE01",
+    "description" : "情侣专属小程序",
+    "versionName" : "1.0.0",
+    "versionCode" : "100",
+    "transformPx" : false,
+    "mp-weixin" : {
+        "appid" : "wxe6079d4dc423bfec",
+        "cloudfunctionRoot" : "cloudfunctions/",
+        "setting" : {
+            "urlCheck" : false,
+            "es6" : true,
+            "postcss" : true,
+            "minified" : true
+        },
+        "usingComponents" : true
+    },
+    "quickapp" : {},
+    "mp-alipay" : {
+        "usingComponents" : true
+    },
+    "mp-baidu" : {
+        "usingComponents" : true
+    },
+    "mp-toutiao" : {
+        "usingComponents" : true
+    },
+    "uniStatistics" : {
+        "enable" : false
+    },
+    "vue" : "3"
+}

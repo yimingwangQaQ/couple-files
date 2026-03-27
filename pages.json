@@ -1,0 +1,57 @@
+{
+  "pages": [
+    {
+      "path": "pages/task/task",
+      "style": {
+        "navigationBarTitleText": "任务清单",
+        "navigationBarBackgroundColor": "#FF6B8A",
+        "navigationBarTextStyle": "white",
+        "backgroundColor": "#FFFAF5"
+      }
+    },
+    {
+      "path": "pages/recipe/recipe",
+      "style": {
+        "navigationBarTitleText": "菜谱菜单",
+        "navigationBarBackgroundColor": "#FF6B8A",
+        "navigationBarTextStyle": "white",
+        "backgroundColor": "#FFFAF5"
+      }
+    },
+    {
+      "path": "pages/plan/plan",
+      "style": {
+        "navigationBarTitleText": "旅游计划",
+        "navigationBarBackgroundColor": "#667EEA",
+        "navigationBarTextStyle": "white",
+        "backgroundColor": "#FFFAF5"
+      }
+    }
+  ],
+  "tabBar": {
+    "color": "#B89AAA",
+    "selectedColor": "#FF6B8A",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/task/task",
+        "text": "任务"
+      },
+      {
+        "pagePath": "pages/recipe/recipe",
+        "text": "菜谱"
+      },
+      {
+        "pagePath": "pages/plan/plan",
+        "text": "计划"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "我们的小窝 💕",
+    "navigationBarBackgroundColor": "#FF6B8A",
+    "backgroundColor": "#FFFAF5"
+  }
+}

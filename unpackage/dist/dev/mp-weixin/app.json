@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/task/task",
+    "pages/recipe/recipe",
+    "pages/plan/plan"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "我们的小窝 💕",
+    "navigationBarBackgroundColor": "#FF6B8A",
+    "backgroundColor": "#FFFAF5"
+  },
+  "tabBar": {
+    "color": "#B89AAA",
+    "selectedColor": "#FF6B8A",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/task/task",
+        "text": "任务"
+      },
+      {
+        "pagePath": "pages/recipe/recipe",
+        "text": "菜谱"
+      },
+      {
+        "pagePath": "pages/plan/plan",
+        "text": "计划"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
